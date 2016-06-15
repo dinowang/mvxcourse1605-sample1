@@ -1,5 +1,13 @@
 
 ----------------------------------------------------------------------------------------------------
+15 六月 16 21:11 Add MvvmCross Plugins
+----------------------------------------------------------------------------------------------------
+Install-Package MvvmCross.Plugin.Color -FileConflictAction ignore -ProjectName Ninja.Core
+Install-Package MvvmCross.Plugin.Color -FileConflictAction ignore -ProjectName Ninja.iOS
+Install-Package MvvmCross.Plugin.Color -FileConflictAction ignore -ProjectName Ninja.Droid
+
+
+----------------------------------------------------------------------------------------------------
 27 五月 16 16:32 Add ViewModel and Views
 ----------------------------------------------------------------------------------------------------
 PetHouseViewModel.cs added to Ninja.Core project (template=MvxSampleDataViewModel.t4)

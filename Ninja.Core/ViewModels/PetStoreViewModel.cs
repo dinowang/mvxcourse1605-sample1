@@ -32,7 +32,7 @@ namespace Ninja.Core.ViewModels
         private void Save()
         {
             _petStoreService.Save(Pets);
-            Close(this);
+            //Close(this);
         }
     }
 }

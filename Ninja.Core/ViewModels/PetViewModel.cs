@@ -17,6 +17,14 @@ namespace Ninja.Core.ViewModels
             set { SetProperty(ref _name, value); }
         }
 
+        private string _sex;
+
+        public string Sex
+        {
+            get { return _sex; }
+            set { SetProperty(ref _sex, value); }
+        }
+
         private bool _antiepidemic;
 
         public bool Antiepidemic
